@@ -1,0 +1,31 @@
+What is REST?
+==============
+- REpresentational State Transfer
+- It defines how applications communicate over the Hypertext Transfer Protocol (HTTP)
+- While REST doesn’t define data formats, it’s usually associated with exchanging JSON or XML documents between a client and a server.
+
+Anatomy of an HTTP message:
+=============================
+full article: https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
+
+HTTP Requests
+- START line
+  - HTTP Method (or verb)
+  - Target (URL + Port + optional variables)
+  - HTTP Version 
+- HEADERS
+  - Useragent (browser name/version)
+  - body related (Content-Type and Content-Length if a body is used)
+  - authentification tokens/sessions
+  - etc... 
+- BODY
+    - text with a length of Content-Length and a type of Content-Type (xml, json, txt)
+
+HTTP Responses
+- STATUS line
+- HEADERS
+- BODY
+
+
+HTTP Methods (Verbs):
+======================
